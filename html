@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcano do Aniversário</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(rgba(20,15,10,0.9), rgba(20,15,10,0.9)),
+                url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee") center/cover;
+    font-family: 'Cinzel', serif;
+    color:#e8d8c3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.container{
+    text-align:center;
+    position:relative;
+}
+
+.card{
+    width:320px;
+    height:480px;
+    background:linear-gradient(145deg,#3b2f2f,#1e1616);
+    border-radius:20px;
+    box-shadow:0 0 40px rgba(255,215,150,0.2);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:25px;
+    border:1px solid rgba(255,215,150,0.2);
+    transition:1s;
+}
+
+.card:hover{
+    transform:rotateY(10deg) scale(1.05);
+    box-shadow:0 0 60px rgba(255,215,150,0.5);
+}
+
+.title{
+    font-size:24px;
+    letter-spacing:3px;
+}
+
+.subtitle{
+    margin-top:8px;
+    font-size:13px;
+    opacity:0.8;
+}
+
+.message{
+    font-family:'Great Vibes', cursive;
+    font-size:30px;
+    margin-top:30px;
+    text-align:center;
+}
+
+.text{
+    margin-top:20px;
+    font-size:14px;
+    line-height:1.6;
+    opacity:0.9;
+}
+
+.footer{
+    position:absolute;
+    bottom:-60px;
+    font-size:12px;
+    opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="title">O ANIVERSARIANTE</div>
+        <div class="subtitle">ARCANO DA VIDA</div>
+
+        <div class="message">
+            Feliz Aniversário ✨
+        </div>
+
+        <div class="text">
+            Que este novo ciclo seja iluminado,  
+            repleto de conquistas,  
+            sonhos realizados  
+            e caminhos mágicos a serem descobertos.  
+
+            Que o destino sorria para você  
+            hoje e sempre. 🖤
+        </div>
+    </div>
+
+    <div class="footer">IX</div>
+</div>
+
+</body>
+</html>
